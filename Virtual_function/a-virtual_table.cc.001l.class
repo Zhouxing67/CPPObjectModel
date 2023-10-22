@@ -1,0 +1,70 @@
+Class __locale_struct
+   size=232 align=8
+   base size=232 base align=8
+__locale_struct (0x0x7f72734e3ba0) 0
+
+Class <unnamed struct>
+   size=8 align=4
+   base size=8 base align=4
+<unnamed struct> (0x0x7f72734e3c00) 0
+
+Class <unnamed struct>::<unnamed union>
+   size=4 align=4
+   base size=4 base align=4
+<unnamed struct>::<unnamed union> (0x0x7f72734e3cc0) 0
+
+Class <unnamed struct>
+   size=8 align=4
+   base size=8 base align=4
+<unnamed struct> (0x0x7f72734e3c60) 0
+
+Class _G_fpos_t
+   size=16 align=8
+   base size=16 base align=8
+_G_fpos_t (0x0x7f72734e3d20) 0
+
+Class _G_fpos64_t
+   size=16 align=8
+   base size=16 base align=8
+_G_fpos64_t (0x0x7f72734e3d80) 0
+
+Class _IO_FILE
+   size=216 align=8
+   base size=216 base align=8
+_IO_FILE (0x0x7f72734e3de0) 0
+
+Class _IO_cookie_io_functions_t
+   size=32 align=8
+   base size=32 base align=8
+_IO_cookie_io_functions_t (0x0x7f72734e3e40) 0
+
+Vtable for Person
+Person::_ZTV6Person: 5 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI6Person)
+16    (int (*)(...))Person::~Person
+24    (int (*)(...))Person::~Person
+32    (int (*)(...))Person::display
+
+Class Person
+   size=32 align=8
+   base size=32 base align=8
+Person (0x0x7f72734e3ea0) 0
+    vptr=((& Person::_ZTV6Person) + 16)
+
+Vtable for Student
+Student::_ZTV7Student: 5 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI7Student)
+16    (int (*)(...))Student::~Student
+24    (int (*)(...))Student::~Student
+32    (int (*)(...))Student::display
+
+Class Student
+   size=48 align=8
+   base size=48 base align=8
+Student (0x0x7f7273521138) 0
+    vptr=((& Student::_ZTV7Student) + 16)
+Person (0x0x7f72730e15a0) 0
+      primary-for Student (0x0x7f7273521138)
+
